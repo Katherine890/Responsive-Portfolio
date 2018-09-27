@@ -282,7 +282,7 @@ form {
     #name {
         position: relative;
         bottom: 137px;
-        left: 10px;
+        left: 30px;
         width: 330px;
         text-align: center;
     }
@@ -295,10 +295,10 @@ form {
 
     #body {
         position: relative;
-        right: 260px;
+        right: 240px;
         padding-right: 20px;
         bottom: 250px;
-        width: 700px;
+        width: 740px;
     }
 
 }
@@ -309,9 +309,10 @@ form {
     }
     
     #header {
-        position: static;
+        position: relative;
+        right: 30px;
         margin-left: 0;
-        width: 100%;
+        width: 670px;
         border-top: 140px solid #ffffff;
     }
 
@@ -326,7 +327,7 @@ form {
     nav {
         width: 100%;
         bottom: 230px;
-        left: 120px;
+        left: 160px;
     }
 
     #image {
@@ -339,7 +340,7 @@ form {
         position: relative;
         right: 270px;
         bottom: 250px;
-        width: 550px;
+        width: 570px;
     }
 
     .ai-section,
