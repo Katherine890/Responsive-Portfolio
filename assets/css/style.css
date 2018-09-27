@@ -1,0 +1,440 @@
+/* General Page */
+html,
+body {
+    margin: auto 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    background: url("../../assets/images/brushed/brushed_@2X.png")
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+    height: 100%;
+}
+
+/* Heading */
+#header {
+    border-top: 65px solid #ffffff;
+    position: relative;
+    top: 1px;
+    width: 100%;
+    padding: 10px;
+}
+
+#name {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    width: 300px; 
+    padding: 15px 30px;
+    border-bottom: none;
+    margin-left: 280px;
+    margin-top: 60px;
+    float: left;
+    position: relative;
+    bottom: 135px;
+}
+
+hr {
+    position: relative;
+    width: 100%;
+    bottom: 158px;
+    border: 1px solid #dddddd;
+}
+
+/* Navigation */
+nav li{
+    display: inline-block;
+    border-right: 1.5px solid silver;
+    color: #777777;
+    text-decoration: none;
+    padding: 0.05em 1em;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    list-style-type: none;
+}
+
+nav {
+    margin-bottom: 60px;
+    float: right;
+    position: relative;
+    bottom: 225px;
+    right: 250px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+    float: right;
+}
+
+.special {
+    border-right: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+/* Content Heading & Stuff */
+#body {
+    padding: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+    margin-left: 280px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    max-width: 650px;
+    float: left;
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 240px;
+}
+
+h1 {after
+
+    display: block;
+    border-bottom: 2px solid #dddddd;
+    padding-bottom: 20px;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    font-size: 30px;
+    color: #4aaaa5;
+}
+
+p {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    color: #777777;
+    line-height: 30px;
+    margin-top: 25px;
+}
+
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+}
+
+/* Profile Picture */
+#image {
+    float: left;
+    margin: 10px 30px 20px 0px;
+}
+
+/* Portfolio Page */
+.ai,
+.health,
+.dance,
+.film,
+.music {
+    position: relative;
+    bottom: 75px;
+    background-color: #4aaaa5;
+    padding: 3px;
+    text-align: center;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
+    color: #ffffff;
+}
+
+.ai-section {
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.health-section {
+    float: right;
+    position: relative;
+    top: 325px;
+    right: 450px;
+}
+
+.dance-section {
+    float: left;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.film-section {
+    float: left;
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+}
+
+.music-section {
+    float: left;
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+}
+
+.ai-image,
+.health-image,
+.dance-image,
+.film-image,
+.music-image {
+    width: 190px;
+    height: 120px;
+}
+
+.health-image {
+    overflow: auto;
+}
+
+/* Contact Page */
+input {
+    margin-bottom: 5px;
+    width: 640px;
+}
+
+textarea {
+    height: 130px;
+    width: 640px;
+}
+
+form {
+    color: #777777;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+.submit {
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border: none;
+    width: 100px;
+}
+
+/*Footer */
+#footer {
+    border-style: solid;
+    border-width: 100%;
+    height: 60px;
+    background: #666666;
+    border-top: 7px solid #4aaaa5;
+    position: relative;
+    top: 700px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-left-style: none;
+    margin-top: 25px;
+}
+
+#footer,
+.push {
+
+}
+
+/* Media Queries */
+@media only screen and (max-width: 980px) {
+    #container {
+        height: auto 0;
+    }
+
+    #header {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    #name {
+        margin-left: 0;
+        position: relative;
+        left: 30px;
+    }
+
+    nav {
+        width: 100%;
+        bottom: 230px;
+        left: 600px;
+    }
+
+    #body {
+        position: relative;
+        right: 240px;
+        padding-right: 20px;
+        bottom: 250px;
+        width: 700px;
+}
+
+@media only screen and (max-width: 768px) {
+    #container {
+        height: auto 0;
+    }
+
+    #header {
+        margin-left: 0;
+        width: 100%;
+        border-top: 65px solid #ffffff;
+    }
+
+    #name {
+        position: relative;
+        bottom: 137px;
+        left: 10px;
+        width: 330px;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        bottom: 230px;
+        left: 420px;
+    }
+
+    #body {
+        position: relative;
+        right: 260px;
+        padding-right: 20px;
+        bottom: 250px;
+        width: 700px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    #container {
+        height: auto 0;
+    }
+    
+    #header {
+        position: static;
+        margin-left: 0;
+        width: 100%;
+        border-top: 140px solid #ffffff;
+    }
+
+    #name {
+        position: relative;
+        bottom: 210px;
+        left: 0;
+        width: 640px;
+        text-align: center;
+    }
+    
+    nav {
+        width: 100%;
+        bottom: 230px;
+        left: 120px;
+    }
+
+    #image {
+        margin-left: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    #body {
+        position: relative;
+        right: 270px;
+        bottom: 250px;
+        width: 550px;
+    }
+
+    .ai-section,
+    .dance-section,
+    .film-section,
+    .music-section,
+    .health-section {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ai-image,
+    .dance-image,
+    .film-image,
+    .music-image,
+    .health-image {
+        width: 100%;
+        min-height: 260px;
+    }
+
+    .ai-image {
+        position: relative;
+        right: 10px;
+    }
+
+    .ai {
+        position: relative;
+        right: 10px;
+    }
+
+    .dance-image {
+        position: relative;
+        bottom: 350px;
+        right: 50px;
+    }
+
+    .dance {
+        position: relative;
+        bottom: 430px;
+        right: 50px;
+
+    }
+
+    .film-image {
+        position: relative;
+        bottom: 310px;
+        right: 10px;
+    }
+
+    .film {
+        position: relative;
+        bottom: 390px;
+        right: 10px;
+    }
+
+    .music-image {
+        position: relative;
+        bottom: 300px;
+        right: 50px;
+    }
+
+    .music {
+        position: relative;
+        bottom: 380px;
+        right: 50px;
+    }
+
+    .health-image {
+        position: relative;
+        left: 450px;
+        top: 730px;
+    }
+
+    .health {
+        position: relative;
+        left: 450px;
+        top: 650px;
+    }
+
+    input {
+        margin-bottom: 5px;
+        width: 540px;
+    }
+    
+    textarea {
+        height: 130px;
+        width: 540px;
+    }
+
+    #footer {
+        bottom: 0;
+        left: 0;
+        position: relative;
+        top: 2000px;
+        min-height: 100px;
+    }
+}
