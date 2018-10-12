@@ -94,7 +94,7 @@ a:hover {
     bottom: 240px;
 }
 
-h1 {after
+h1 { after
 
     display: block;
     border-bottom: 2px solid #dddddd;
@@ -125,7 +125,7 @@ p {
 
 /* Portfolio Page */
 .guessgame,
-.health,
+.crystal,
 .dance,
 .film,
 .music {
@@ -138,13 +138,9 @@ p {
     color: #ffffff;
 }
 
+#crystalg,
 #guess {
-    background-color: #4aaaa5;
-    color: white;
     width: 190px;
-    padding: 2px;
-    position: relative;
-    right: 5px;
 }
 
 .guessgame-section {
@@ -154,7 +150,7 @@ p {
     left: 10px;
 }
 
-.health-section {
+.crystalgame-section {
     float: right;
     position: relative;
     top: 325px;
@@ -183,7 +179,7 @@ p {
 }
 
 .guessgame-image,
-.health-image,
+.crystalgame-image,
 .dance-image,
 .film-image,
 .music-image {
@@ -191,7 +187,7 @@ p {
     height: 120px;
 }
 
-.health-image {
+.crystalgame-image {
     overflow: auto;
 }
 
@@ -356,7 +352,7 @@ form {
     .dance-section,
     .film-section,
     .music-section,
-    .health-section {
+    .crystalgame-section {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -366,7 +362,7 @@ form {
     .dance-image,
     .film-image,
     .music-image,
-    .health-image {
+    .crystalgame-image {
         width: 100%;
         min-height: 260px;
     }
@@ -418,13 +414,13 @@ form {
         right: 50px;
     }
 
-    .health-image {
+    .crystalgame-image {
         position: relative;
         left: 450px;
         top: 730px;
     }
 
-    .health {
+    .crystal {
         position: relative;
         left: 450px;
         top: 650px;
