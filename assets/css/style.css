@@ -126,7 +126,7 @@ p {
 /* Portfolio Page */
 .guessgame,
 .crystal,
-.dance,
+.trivia,
 .film,
 .music {
     position: relative;
@@ -139,7 +139,8 @@ p {
 }
 
 #crystalg,
-#guess {
+#guess,
+#triviagame {
     width: 190px;
 }
 
@@ -157,7 +158,7 @@ p {
     right: 450px;
 }
 
-.dance-section {
+.trivia-section {
     float: left;
     position: relative;
     top: 10px;
@@ -180,7 +181,7 @@ p {
 
 .guessgame-image,
 .crystalgame-image,
-.dance-image,
+.trivia-image,
 .film-image,
 .music-image {
     width: 190px;
@@ -349,7 +350,7 @@ form {
     }
 
     .guessgame-section,
-    .dance-section,
+    .trivia-section,
     .film-section,
     .music-section,
     .crystalgame-section {
@@ -359,7 +360,7 @@ form {
     }
 
     .guessgame-image,
-    .dance-image,
+    .trivia-image,
     .film-image,
     .music-image,
     .crystalgame-image {
@@ -377,13 +378,13 @@ form {
         right: 10px;
     }
 
-    .dance-image {
+    .trivia-image {
         position: relative;
         bottom: 350px;
         right: 50px;
     }
 
-    .dance {
+    .trivia {
         position: relative;
         bottom: 430px;
         right: 50px;
