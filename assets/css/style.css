@@ -94,7 +94,7 @@ a:hover {
     bottom: 240px;
 }
 
-h1 { after
+h1 { after 
 
     display: block;
     border-bottom: 2px solid #dddddd;
@@ -127,7 +127,7 @@ p {
 .guessgame,
 .crystal,
 .trivia,
-.film,
+.superhero,
 .music {
     position: relative;
     bottom: 75px;
@@ -136,11 +136,13 @@ p {
     text-align: center;
     font-family: "Georgia", "Times", "Times New Roman", "serif";
     color: #ffffff;
+    width: 185px;
 }
 
 #crystalg,
 #guess,
-#triviagame {
+#triviagame
+#superhero-search {
     width: 190px;
 }
 
@@ -165,7 +167,7 @@ p {
     left: 50px;
 }
 
-.film-section {
+.superhero-section {
     float: left;
     position: relative;
     left: 10px;
@@ -182,7 +184,7 @@ p {
 .guessgame-image,
 .crystalgame-image,
 .trivia-image,
-.film-image,
+.superhero-image,
 .music-image {
     width: 190px;
     height: 120px;
@@ -351,7 +353,7 @@ form {
 
     .guessgame-section,
     .trivia-section,
-    .film-section,
+    .superhero-section,
     .music-section,
     .crystalgame-section {
         width: 100%;
@@ -361,7 +363,7 @@ form {
 
     .guessgame-image,
     .trivia-image,
-    .film-image,
+    .superhero-image,
     .music-image,
     .crystalgame-image {
         width: 100%;
@@ -391,13 +393,13 @@ form {
 
     }
 
-    .film-image {
+    .superhero-image {
         position: relative;
         bottom: 310px;
         right: 10px;
     }
 
-    .film {
+    .superhero {
         position: relative;
         bottom: 390px;
         right: 10px;
