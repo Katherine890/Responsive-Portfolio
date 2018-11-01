@@ -128,7 +128,7 @@ p {
 .crystal,
 .trivia,
 .superhero,
-.music {
+.train {
     position: relative;
     bottom: 75px;
     background-color: #4aaaa5;
@@ -142,7 +142,8 @@ p {
 #crystalg,
 #guess,
 #triviagame
-#superhero-search {
+#superhero-search
+#traintime {
     width: 190px;
 }
 
@@ -174,7 +175,7 @@ p {
     bottom: 30px;
 }
 
-.music-section {
+.train-section {
     float: left;
     position: relative;
     bottom: 30px;
@@ -185,7 +186,7 @@ p {
 .crystalgame-image,
 .trivia-image,
 .superhero-image,
-.music-image {
+.train-image {
     width: 190px;
     height: 120px;
 }
@@ -354,7 +355,7 @@ form {
     .guessgame-section,
     .trivia-section,
     .superhero-section,
-    .music-section,
+    .train-section,
     .crystalgame-section {
         width: 100%;
         margin-left: auto;
@@ -364,7 +365,7 @@ form {
     .guessgame-image,
     .trivia-image,
     .superhero-image,
-    .music-image,
+    .train-image,
     .crystalgame-image {
         width: 100%;
         min-height: 260px;
@@ -405,13 +406,13 @@ form {
         right: 10px;
     }
 
-    .music-image {
+    .train-image {
         position: relative;
         bottom: 300px;
         right: 50px;
     }
 
-    .music {
+    .train {
         position: relative;
         bottom: 380px;
         right: 50px;
